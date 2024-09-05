@@ -1,0 +1,141 @@
+/* Importing google font Roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+.content-wrapper {
+    height: 100vh;
+    background-image: url("./Image/Homepage-Model-3-Desktop-US.avif");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.nav {
+    height: 60px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    width: 120px;
+    height: 60px;
+    display: flex;
+}
+
+.middle-section ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    height: 60px;
+}
+
+.middle-section ul li{
+    display: flex;
+    align-items: center;
+}
+
+.middle-section ul li a:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.middle-section > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.icons-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    
+}
+
+.icons-section:hover {
+    cursor: pointer;
+}
+
+.main-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 37px;
+    font-family:"Roboto", sans-serif;
+}
+
+.main-content h1 {
+    font-size: 56px;
+}
+
+.main-content a {
+    color: white;
+    font-size: 28px;
+    text-underline-offset: 7px;
+}
+
+.main-content p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 17px;
+}
+.blue-btn, .white-btn {
+   padding: 10px 40px;
+   text-decoration: none;
+   border-radius: 5px;
+   height: 40px;
+   width: 264px;
+
+}
+
+.blue-btn {
+    background-color: #3E6AE1;
+    color: white;
+    text-align: center;
+}
+
+.blue-btn :hover {
+    background-color: white;
+    color: #393C41;
+    text-align: center;
+}
+
+.white-btn {
+    background-color: white;
+    color: #393C41;
+    text-align: center;
+}
+
+.white-btn :hover {
+    background-color: #3E6AE1;
+    color: white;
+    text-align: center;
+}
+
+/*this is the main-container + buttons*/
+.main-wrapper {
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
